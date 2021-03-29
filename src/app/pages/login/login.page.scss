@@ -1,0 +1,23 @@
+$couleur-orange-red-degrad1: #ffab00;
+$couleur-orange-red-degrad2: #ff8921;
+$couleur-orange-red-degrad3: #ff653a;
+$couleur-orange-red-degrad4: #fd404f;
+$couleur-orange-red-degrad5: #ff8921;
+
+
+.logo{
+    height: 40%;
+}
+p{
+    text-align: center;
+}
+
+.form{
+    .btnLogin{
+        --background: linear-gradient(to right, #ffab00, #ff8921, #ff653a, #fd404f, #eb1264);
+        --background-activated: linear-gradient(to right, #ffab00, #ff8921, #ff653a, #fd404f, #eb1264);
+        --background-focused: linear-gradient(to right, #ffab00, #ff8921, #ff653a, #fd404f, #eb1264);
+        --background-hover: linear-gradient(to right, #ffab00, #ff8921, #ff653a, #fd404f, #eb1264);
+    }
+}
+
